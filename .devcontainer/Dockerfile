@@ -26,6 +26,4 @@ RUN apt-get update \
 
 RUN python3 -m pip install setuptools
 RUN python3 -m pip install radian
-RUN python3 -m pip install tensorflow
-RUN python3 -m pip install keras
 
