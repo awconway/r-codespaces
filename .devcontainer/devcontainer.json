@@ -9,13 +9,14 @@
 	"settings": {
 		"terminal.integrated.shell.linux": "/bin/bash",
 		"r.rterm.linux": "/usr/local/bin/R",
-		"r.bracketedPaste": true,
+		"r.sessionWatcher": true,
 	},
 
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
 		// R extensions
 		"ikuyadeu.r",
+		"reditorsupport.r-lsp"
 		// Utility extensions, feel free to adjust them
 	]
 
