@@ -7,7 +7,7 @@ ARG UPGRADE_PACKAGES="false"
 
 # Install needed packages and setup non-root user. Use a separate RUN statement to add your own dependencies.
 ARG USERNAME=docker
-ARG USER_UID=1000
+ARG USER_UID=2000
 ARG USER_GID=$USER_UID
 COPY library-scripts/*.sh /tmp/library-scripts/
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
