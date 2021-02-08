@@ -25,5 +25,4 @@ RUN apt-get update \
     libxt6
 
 RUN python3 -m pip install setuptools
-RUN python3 -m pip install radian
 
