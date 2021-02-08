@@ -1,4 +1,4 @@
-FROM rocker/ml:4.0.2
+FROM rocker/r-ver:cuda10.1
 
 # [Option] Install zsh
 ARG INSTALL_ZSH="true"
